@@ -1202,9 +1202,9 @@ footer p {
     display: block; 
 }
 
-@media {
+@media (max-width: 768px) {
 
-    /*NAV*/
+    /* NAV */
     .navigation {
         padding: 12px 16px;
         flex-wrap: wrap;
@@ -1222,7 +1222,7 @@ footer p {
         font-size: 13px;
     }
 
-    /*INTRO*/
+    /* HERO / INTRO */
     .container {
         flex-direction: column;
         align-items: center;
@@ -1264,7 +1264,7 @@ footer p {
         margin-top: 30px;
     }
 
-    /*ABOUT ME - HOME*/
+    /* ABOUT ME - HOME */
     .container2 {
         flex-direction: column;
         gap: 20px;
@@ -1305,7 +1305,7 @@ footer p {
         margin: 20px auto 0;
     }
 
-    /*MY SKILLS - HOME*/
+    /* MY SKILLS - HOME */
     .container3 {
         margin-top: 30px;
         padding: 20px;
@@ -1375,7 +1375,7 @@ footer p {
         margin: 20px auto 0;
     }
 
-    /*BLOG - HOME*/
+    /* BLOG - HOME */
     .container4 {
         padding: 10px;
     }
@@ -1407,7 +1407,7 @@ footer p {
         width: fit-content;
     }
 
-    /*ABOUT ME PAGE*/
+    /* ABOUT ME PAGE */
     .about-container h1 {
         font-size: 28px;
     }
@@ -1471,7 +1471,7 @@ footer p {
         margin-bottom: 20px;
     }
 
-    /*PORTFOLIO PAGE*/
+    /* PORTFOLIO PAGE */
     .portfolio-content {
         margin: 0 20px;
     }
@@ -1494,7 +1494,7 @@ footer p {
         max-width: 90%;
     }
 
-    /*BLOG PAGE*/
+    /* BLOG PAGE */
     .blog-title {
         margin-left: 20px;
         font-size: 18px;
@@ -1535,7 +1535,7 @@ footer p {
         height: 140px;
     }
 
-    /*CONTACT PAGE*/
+    /* CONTACT PAGE */
     .contact-container {
         flex-direction: column;
         margin-top: 30px;
@@ -1585,7 +1585,7 @@ footer p {
         margin-top: 30px;
     }
 
-    /*SCENERY PAGE*/
+    /* SCENERY PAGE */
     .scenery-container h2 {
         margin-left: 20px;
         font-size: 16px;
@@ -1631,5 +1631,81 @@ footer p {
     .pic {
         width: 140px;
         height: 140px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .nav-links {
+        gap: 0;
+    }
+
+    .nav-links a {
+        padding: 6px 8px;
+        font-size: 11px;
+    }
+
+    .content h1 {
+        font-size: 22px;
+    }
+
+    .content h2 {
+        font-size: 32px;
+    }
+
+    .content p {
+        font-size: 14px;
+    }
+
+    .circle {
+        width: 80vw;
+        height: 80vw;
+    }
+
+    .content2 h1 {
+        font-size: 22px;
+    }
+
+    .content3 h1 {
+        font-size: 22px;
+    }
+
+    .blog-content {
+        width: 95%;
+    }
+
+    .box {
+        min-width: 240px;
+    }
+
+    .photo {
+        width: 240px;
+        height: 170px;
+    }
+
+    .heart-icon {
+        left: 205px;
+    }
+
+    .images a {
+        width: 120px;
+        height: 120px;
+    }
+
+    .images img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .get-in-touch {
+        font-size: 20px;
+    }
+
+    .about-container h1 {
+        font-size: 22px;
+    }
+
+    .portfolio-container h1 {
+        font-size: 22px;
     }
 }
